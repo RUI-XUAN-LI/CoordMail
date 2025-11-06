@@ -1,0 +1,11 @@
+{
+  "serverA": {
+    "time_bounce_process": 10,
+    "country": "N/A",
+    "mandatory_command_dict": {"tcp": 58, "helo": 58, "mail_from": 58, "rcpt_to": 58, "data": 58, "from": 58, "to": 58, "content": 58, "end": 58},
+    "optional_command_num_dict": {"NOOP": 298, "RESET": 298, "VRFY": 298, "HELP": 298, "abcd": 298, "XADR": 298, "TURN": 298},
+    "optional_command_time_dict": {"NOOP": 31, "RESET": 31, "VRFY": 31, "HELP": 31, "abcd": 31, "XADR": 31, "TURN": 31},
+    "max_timeout": 1000,
+    "domain_list": ["sim.example.local"]
+  }
+}
